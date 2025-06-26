@@ -158,9 +158,9 @@ h2 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-29.375rem, 1.25rem);
+  transform: translate(-37.375rem, -2.25rem);
   width: 200%;
-  height: 95%;
+  height: 98%;
   background-color: #f7f7f7;
   max-width: 84.375rem;
   margin: 0 auto;
@@ -223,7 +223,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: translate(14%, -268%);
+  transform: translate(22%, -268%);
 }
 
 .feww {
@@ -254,14 +254,15 @@ img {
 .four-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0;
+  gap: 0; /* adjust spacing between items */
   padding: 0;
   transform: translate(4rem, -24.4rem);
   pointer-events: none;
 }
 
+
 .jumbo-container {
-  transform: translate(10.9rem, 46.3rem);
+  transform: translate(6.6rem, 46.1rem);
   max-width: 37.5rem;
   height: 100vh;
   margin: 1.3rem 1rem;
@@ -271,7 +272,7 @@ img {
   align-items: center;
   text-align: center;
   padding: 0;
-  border: 0.0625rem solid rgba(0, 123, 255, 0.4);
+  border: 0.0625rem solid rgba(0, 123, 255, 0.1);
   background-color: #fff;
   padding: 0rem;
   pointer-events: auto;
@@ -351,103 +352,3 @@ li {
 .box {
   pointer-events: auto !important;
 }
-
-
-
-/* Media queries for responsive design */
-
-/* For large screens (desktops) */
-/* @media only screen and (min-width: 75rem) {
-  .service-container {
-    min-width: 93.75rem;
-    transform: translateY(-49rem);
-  }
-  .row {
-    transform: translateY(30rem);
-  }
-  .img-fluid {
-    transform: translate(1.25rem, 8.75rem);
-  }
-  .box-icon {
-    transform: translate(1.25rem, -5.9375rem);
-  }
-  .the-text {
-    transform: translateY(-55.625rem);
-  }
-  .design {
-    transform: translate(-2424.7rem, 65rem);
-  }
-  .four-content {
-    grid-template-columns: repeat(2, 1fr);
-    transform: translate(2.5rem, 66.5rem);
-  }
-  .jumbo-container {
-    max-width: 37.5rem;
-    transform: translate(3.6875rem, 29.0625rem);
-  }
-} */
-
-/* For medium screens (tablets) */
-@media only screen and (min-width: 48rem) and (max-width: 74.9375rem) {
-  .service-container {
-
-    min-width: 62.5rem;
-    transform: translateY(-40rem);
-  }
-  .row {
-    transform: translateY(23.75rem);
-  }
-  .img-fluid {
-    transform: translate(0.625rem, 6.25rem);
-  }
-  .box-icon {
-    transform: translate(0.625rem, -4.375rem);
-  }
-  .the-text {
-    transform: translateY(-3.75rem);
-  }
-  .design {
-    transform: translate(-20rem, 50rem);
-  }
-  .four-content {
-    grid-template-columns: repeat(1, 1fr);
-    transform: translate(1.25rem, 3.125rem);
-  }
-  .jumbo-container {
-    max-width: 25rem;
-    transform: translate(2.4375rem, 1818.75rem);
-  }
-}
-
-/* For small screens (mobile devices) */
-@media only screen and (max-width: 47.9375rem) {
-  .service-container {
-    min-width: 100%;
-    transform: translateY(-20rem);
-  }
-  .row {
-    transform: translateY(12.5rem);
-  }
-  .img-fluid {
-    transform: translate(0, 3.125rem);
-  }
-  .box-icon {
-    transform: translate(0, -1.875rem);
-  }
-  .the-text {
-    transform: translateY(-1.875rem);
-  }
-  .design {
-    transform: translate(-10rem, 30rem);
-  }
-  .four-content {
-    grid-template-columns: repeat(1, 1fr);
-    transform: translate(0.625rem, 1.25rem);
-  }
-  .jumbo-container {
-    max-width: 18.75rem;
-    transform: translate(1.1875rem, 1212.5rem);
-  }
-}
-
-
